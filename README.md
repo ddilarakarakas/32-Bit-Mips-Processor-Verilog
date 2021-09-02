@@ -99,8 +99,7 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
 ```sh
       (RS == RT) ? 0: PC = PC + 4 + BRANCHADDER
 ```
-
-## _J Type_
+### _J Type_
 
    >J
 
