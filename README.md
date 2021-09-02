@@ -35,8 +35,8 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
         $rd <= 3
 ```   
    >SUBN
-  
-    ```sh
+
+```sh
       $rs <= $rs - $rt 
       if($rs - $rt == 0) 
         $rd <= 1
@@ -44,8 +44,7 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
         $rd <= 2 
       else
         $rd <= 3
-    ```
-   
+```
    >ORN
 
     ```sh
