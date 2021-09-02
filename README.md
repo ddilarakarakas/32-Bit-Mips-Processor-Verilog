@@ -127,7 +127,7 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn a
 | Sw | L | 10 1011 | xx xxxx | 00 | 1 | 1 | 0 | 00 | x | 0 | 0 | xx |
 | J | J | 00 0010 | xx xxxx | xx | x | 0 | 0 | 00 | x | 0 | 0 | xx |
 | Jal | J | 00 0011 | xx xxxx | xx | x | 0 | 0 | 01 | x | 0 | 0 | 01 |
-| Jr | R | 00 0000 | xx xxxx | 10 | x | 0 | 0 | 0 | x | 0 | 0 | xx|
+| Jr | R | 00 0000 | xx xxxx | 10 | x | 0 | 0 | 00 | x | 0 | 0 | xx|
 | Beq | I | 00 0100 | xx xxxx | 01 | 0 | 0 | 0 | 00 | x | 1 | 0 | xx |
 | Bne | I | 00 0101 | xx xxxx | 01 | 0 | 0 | 0 | 00 | x | 0 | 1 | xx |
 | Addn | R | 00 0000 | 10 0000 | 10 | 0 | 0 | 0 | 11 | 0 | 0 | 0 | 11 |
