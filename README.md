@@ -23,27 +23,17 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
          else
            $rd <= 3
 ```
-       ```sh
-         $rs <= $rs + $rt 
-         if($rs + $rt == 0) 
-           $rd <= 1
-         else if($rs + $rt < 0)
-           $rd <= 2 
-         else
-           $rd <= 3
-       ```
    >XORN
- 
-    ```sh
-      $rs <= $rs xor $rt 
+
+```sh
+       $rs <= $rs xor $rt 
       if($rs xor $rt == 0)
         $rd <= 1
       else if($rs xor $rt < 0)
         $rd <= 2 
       else
         $rd <= 3
-    ```
-    
+```   
    >SUBN
   
     ```sh
