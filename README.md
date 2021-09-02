@@ -16,10 +16,11 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
     >ADDN
     ```sh
       $rs <= $rs + $rt 
-      if($rs + $rt == 0) $rd <= 1
+      if($rs + $rt == 0) 
+        $rd <= 1
       else if($rs + $rt < 0)
         $rd <= 2 
-      else 
+      else
         $rd <= 3
     ```
       
