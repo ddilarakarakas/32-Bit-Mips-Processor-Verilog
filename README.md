@@ -119,3 +119,4 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
 ```sh
       PC = RS
 ```
+
