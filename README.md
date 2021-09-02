@@ -68,5 +68,54 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
         $rd <= 3
 ```
 
+### _I Type_
 
-      
+   >XORI
+
+```sh
+      RT = RS + ZEROEXTEND
+```
+
+   >LW
+
+```sh
+      RT = MEM[RS + SIGNEXTEND]
+```
+
+   >SW
+
+```sh
+      MEM[RS + SIGNEXTEND] = RT
+```
+
+   >BEQ
+
+```sh
+      (RS == RT) ? 1: PC = PC + 4 + BRANCHADDER
+```
+
+   >BNE
+
+```sh
+      (RS == RT) ? 0: PC = PC + 4 + BRANCHADDER
+```
+
+### _J Type_
+
+   >J
+
+```sh
+      PC = JUMP-ADDER
+```
+
+   >JAL
+
+```sh
+      R[31] = PC + 8, PC = JUMP-ADDER
+```
+
+   >JR
+
+```sh
+      PC = RS
+```
