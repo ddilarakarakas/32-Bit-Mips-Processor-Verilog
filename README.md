@@ -119,3 +119,14 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn a
       PC = RS
 ```
 
+### _Instruction Table_
+
+| Inst Name | Type | Opcode | Function | ALUOp | ALUSrc | MemWrite | MemRead | RegWrite | MemtoReg | Branch | Bne | sRs |
+| --------- | ---- | ------ | -------- | ----- | ------ | -------- | ------- | -------- | -------- | ------ | --- | --- |
+| LW | L | 10 0011 | xx xxxx | 0 0 | 1 | 0 | 1 | 0 1 | 1 | 0 | 0 | 0 0 |
+| Sw | L |
+| J | J | 
+| Jal | J |
+| Jr | R | 
+| Beq | I |
+| Bne | I |
