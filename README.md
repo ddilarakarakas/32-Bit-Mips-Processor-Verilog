@@ -9,7 +9,7 @@ Project has two memories: Data Memory and Instruction Memory.
 
 ## _Instructions_
 
-Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, ori and lui instructions.But the R-type instructions executed different than the conventional MIPS we have seen. This is why they have ‘n’ at the end (representing new). The new instructions have the same opcode and function fields as the conventional R-type instructions. For instance the opcode and function field of orn is same as or.
+Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn and ori instructions.But the R-type instructions executed different than the conventional MIPS we have seen. This is why they have ‘n’ at the end (representing new). The new instructions have the same opcode and function fields as the conventional R-type instructions. For instance the opcode and function field of orn is same as or.
 
 ### _R Type_
 
@@ -70,7 +70,7 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
 
 ### _I Type_
 
-   >XORI
+   >ORI
 
 ```sh
       RT = RS + ZEROEXTEND
