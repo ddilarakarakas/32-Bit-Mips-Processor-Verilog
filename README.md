@@ -1,10 +1,12 @@
 # 32-Bit-Mips-Processor-Verilog
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+This project was used Altera Quartus II with Verilog. It was implemented a different version of 32-bit MIPS. 
+
+## Prerequisites
+
+Project has two memories: Data Memory and Instruction Memory. 
+“data.mem” and “register.mem” files are need in the simulation directory. Some test instructions are given ,it includes all the instructions.
+
+## Instructions
+
+Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, ori and lui instructions.But the R-type instructions executed different than the conventional MIPS we have seen. This is why they have ‘n’ at the end (representing new). The new instructions have the same opcode and function fields as the conventional R-type instructions. For instance the opcode and function field of orn is same as or.
