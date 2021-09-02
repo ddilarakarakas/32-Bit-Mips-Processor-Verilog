@@ -47,7 +47,7 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
 ```
    >ORN
 
-    ```sh
+```sh
       $rs <= $rs or $rt 
       if($rs or $rt == 0)
         $rd <= 1 
@@ -55,10 +55,10 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
         $rd <= 2 
       else
         $rd <= 3
-    ```
+```
    >ANDN
-    
-    ```sh
+
+```sh
       $rs <= $rs and $rt 
       if($rs and $rt == 0)
         $rd <= 1
@@ -66,5 +66,7 @@ Project is supported lw, sw, j, jal, jr, beq, bne, addn, subn, xorn, andn, orn, 
         $rd <= 2
       else
         $rd <= 3
-    ```
+```
+
+
       
